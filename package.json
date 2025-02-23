@@ -1,0 +1,10 @@
+{
+  "name": "nixpack-project",
+  "version": "1.0.0",
+  "description": "Railway Nixpack project with SSHX",
+  "scripts": {
+    "start": "npm run sshx & bun index.tsx",
+    "sshx": "curl -sSf https://sshx.io/get | sh && sshx"
+  },
+  "dependencies": {}
+}
