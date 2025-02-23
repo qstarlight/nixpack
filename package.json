@@ -9,7 +9,9 @@
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
   "engines": {
     "node": "18.x"
   },
