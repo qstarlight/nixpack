@@ -1,0 +1,3 @@
+# Example Nixpacks configuration
+# Adjust as needed
+builder = "nixpacks"
