@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run sshx && node index.tsx",  
     "sshx": "curl -sSf https://sshx.io/get | sh && sshx",
-    "build": "tsc",  
+    "build": "npx tsc",  
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {},
