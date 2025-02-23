@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Railway Nixpack project with SSHX",
   "scripts": {
-    "start": "npm run sshx & bun index.tsx",
+    "start": "npm run sshx & node index.tsx",
     "sshx": "curl -sSf https://sshx.io/get | sh && sshx"
   },
   "dependencies": {}
